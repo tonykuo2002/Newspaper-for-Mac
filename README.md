@@ -1,1 +1,1 @@
-# Newspaper-for-Mac
+# electron_App

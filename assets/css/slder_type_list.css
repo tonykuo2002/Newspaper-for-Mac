@@ -1,0 +1,26 @@
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.album.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.album.carousel-control {
+    left: -12px;
+}
+.album.carousel-control.right {
+    right: -12px;
+}
+/* Changes the position of the indicators */
+.album.carousel-indicator {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.album.carousel-indicators li {
+    background: #c0c0c0;
+}
+.album.carousel-indicators .active {
+    background: #333333;
+}

@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+#For Mac file
+.DS*
+
+#Webstorm
+idea/
